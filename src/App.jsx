@@ -71,7 +71,7 @@ function App() {
     const toggleDarkMode = () => {
         setIsDarkMode(!isDarkMode);
 
-        // Implement toggling of dark mode styles here
+        
         const container = document.querySelector('.container');
         container.classList.toggle('dark-cont');
 
@@ -127,5 +127,7 @@ function App() {
         </div>
     );
 }
+
+
 
 export default App;
